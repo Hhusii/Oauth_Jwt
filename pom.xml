@@ -37,13 +37,13 @@
 
 						<uri>https://anypoint.mulesoft.com</uri>
 
-						<muleVersion>4.3.0</muleVersion>
+						<muleVersion>4.4.0-20220622</muleVersion>
 
-						<username>${anypoint.username}</username>
+						<username>Hanidev27</username>
 
-						<password>${anypoint.password}</password>
+						<password>Hanidev@27</password>
 
-						<applicationName>mule-app-cicd-github</applicationName>
+						<applicationName>oauth-jwt</applicationName>
 
 						<environment>Sandbox</environment>
 
