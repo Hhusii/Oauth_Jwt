@@ -27,6 +27,7 @@ output application/java
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="4673e683-202c-47f9-9ff6-dabc55c77318" message="#[payload]"/>
 	</flow>
 	<flow name="oauth-validate-token" doc:id="4db23431-d818-4631-b90c-d5b03dfc060c" >
 		<http:listener doc:name="Listener" doc:id="66f5e9ca-865a-4415-9942-0b5910a2b4a1" config-ref="HTTP_Listener_config" path="/validate"/>
